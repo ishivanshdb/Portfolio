@@ -15,552 +15,595 @@
 </head>
 
 <body>
-  <header id="header">
-    <div class="container">
-      <nav class="flex items-center justify-between">
-        <div class="left flex items-center">
-          <div class="branding">
-            <a href="#header">
-              <img src="./images/logo-3.png" alt="Logo" />
+
+  <div class="site-main-wrapper">
+    <button id="hamberger" class="hamberger">
+      <img src="./images/hamberger.svg" alt="Menu Button">
+    </button>
+    <div class="mobile-nav">
+      <button class="times">
+        <img src="./images/times.svg" alt="Close Nav Button">
+      </button>
+      <a href="#header">
+        <img src="./images/logo-3.png" alt="Logo">
+      </a>
+      <ul>
+        <li>
+          <a class="anker" href="#header">Home</a>
+        </li>
+        <li>
+          <a class="anker" href="#about">About</a>
+        </li>
+        <li>
+          <a class="anker" href="#services">Services</a>
+        </li>
+        <li>
+          <a class="anker" href="#pages">Pages</a>
+        </li>
+        <li>
+          <a class="anker" href="#blog">Blog</a>
+        </li>
+        <li>
+          <a class="anker" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <header id="header">
+      <div class="container">
+        <nav id="main-nav" class="flex items-center justify-between">
+          <div class="left flex items-center">
+            <div class="branding">
+              <a href="#header">
+                <img src="./images/logo-3.png" alt="Logo" />
+              </a>
+            </div>
+            <div>
+              <a href="#header">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#pages">Pages</a>
+              <a href="#blog">Blog</a>
+            </div>
+          </div>
+          <div class="right">
+            <a href="#contact">
+              <button class="btn btn-primary">Contact</button></a>
+          </div>
+        </nav>
+        <div class="hero flex items-center justify-between">
+          <div class="left flex-1">
+            <img src="./images/shivansh.png" alt="Model" />
+          </div>
+          <div class="right flex-1 justify-center">
+            <h6>Shivansh Dubey</h6>
+            <h1>I'm a Creative <span>Developer</span></h1>
+            <p>
+              You are here that's mean you want to know about me than you have visited the right website because it's my
+              portfolio site, from here you can get to know about me, my friends, my likes but not my dislikes.
+            </p>
+            <div>
+              <a href="./images/ShivanshCV.pdf" download="ShivanshCV" target="_blank">
+                <button class="btn btn-secondary">DOWNLOAD CV</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="container flex items-center about-inner-wrap">
+        <div class="flex-1">
+          <img class="about-me-image" src="./images/man-2.jpg" alt="Profile Picture" />
+        </div>
+        <div class="flex-1 right">
+          <h1>About <span>Me!!!</span></h1>
+          <h3>Hello! i'm Shivansh Dubey.</h3>
+          <p>
+            I have done my <em>Bachelor of Technology in Computer Science and Engineering</em> from <em>
+              <bold>Dr APJ
+                Abdul Kalam Technical University</bold>
+            </em>, I love to know about different technologies and explore them too!
+            <br>
+            Apart from technology I like to read about Hindu Scripters, Ancient Stories, History, I also have some
+            interest in Art and Craft, whenever I have some extra time I like to spend it on polish my art skills.
+            <br>
+            My hobbies include Internet Suffering, Cooking, Yeah I like cooking very much and I am an awesome cook that
+            friends always say I thinking cooking is also a kind of art which enhance your creativity in a good manner,
+            and I really
+            feel happy when someone gives me a compliment on my food.
+          </p>
+          <div class="social">
+            <a href="mailto:shivanshdb10@gmail.com" target="_blank"><img src="./images/gmail.svg" alt="Gmail" /></a>
+            <a href="https://www.linkedin.com/in/shivansh-dubey-288497152/" target="_blank"><img
+                src="./images/linkedin.svg" alt="LinkedIn" /></a>
+            <a href="https://twitter.com/shivanshdb10" target="_blank"><img src="./images/twitter.svg"
+                alt="Twitter" /></a>
+            <a href="https://github.com/shivanshd" target="_blank"><img src="./images/github.svg" alt="GitHub" /></a>
+            <a href="https://www.instagram.com/sd_shivansh/" target="_blank"><img src="./images/instagram.svg"
+                alt="Instagram" /></a>
+            <a href="https://www.facebook.com/shivanshd" target="_blank"><img src="./images/facebook.svg"
+                alt="Facebook" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <h1 class="section-heading"><span>My </span>Services</h1>
+        <p>These are the fields in which I have some knowledge or I like to work on these.</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="./images/brush.png" alt="Graphic Design" />
+            <h2>Graphic Design</h2>
+            <p>
+              Craft where professionals create visual content to communicate messages. By applying visual hierarchy and
+              page layout
+              techniques. </p>
+          </div>
+          <div class="card">
+            <img src="./images/code.png" alt="Web Development" />
+            <h2>Web Development</h2>
+            <p>
+              It involve developing a Web site for the Internet. Web development can range from
+              developing a
+              simple single static page of plain text to complex Web-based Internet applications.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/media.png" alt="Digital Marketing" />
+            <h2>Digital Marketing</h2>
+            <p>
+              It refers to advertising delivered through digital channels such as search engines, websites, social
+              media,
+              email, and
+              mobile apps. Using these online media channels.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/monitor.png" alt="Web Designing" />
+            <h2>Web Designing</h2>
+            <p>
+              It encompasses many different skills and disciplines in the production and maintenance of websites. The
+              different areas of
+              web design include web graphic design.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/video.png" alt="Motion Graphics" />
+            <h2>Editing</h2>
+            <p>
+              It is the process of selecting and preparing written, photographic, visual, audible, or cinematic material
+              used by a person
+              or an entity to convey a message or information.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/android.png" alt="Application Development" />
+            <h2>Application Development</h2>
+            <p>
+              It is the process of creating a computer program or a set of programs to perform the different tasks that
+              a
+              business requires.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="freelancer" id="pages">
+      <h1>I am available for Freelance</h1>
+      <p>I am available for work, for full-time, part-time or remotely </p>
+      <a href="./images/ShivanshCV.pdf" download="ShivanshCV" target="_blank">
+        <button class="btn btn-primary">DOWNLOAD CV</button></a>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h1 class="section-heading">My <span>Friends!!!</span></h1>
+        <p>These are my awesome friends, who make my life joyfull</p>
+        <div class="slider">
+          <div class="slide">
+            <img src="./images/rishabh.jpg" alt="Rishabh Shukla" />
+            <p>
+              He is my best-friend, brother, my family. I always annoy him, fight with him, but he is the one who is
+              there
+              for me always even if call hime at 3 AM, he will be there for me. I am the luckiest person to have friend
+              like him.
+              Having someone all the time is just a blessing and he proofs that true...
+            </p>
+            <span>Rishabh Shukla</span>
+          </div>
+          <div class="slide">
+            <img src="./images/gunjan.jpg" alt="Gunjan Shukla" />
+            <p>
+              She is my college friend with, we are friends since last 3-4 years I am her third friends she made in
+              college but I am only one who is permanent now. I have tease her with different name like Chudail, Athmi
+              Fails etc and she always tolrate it.
+            </p>
+            <span>Gunjan Shukla</span>
+          </div>
+          <div class="slide">
+            <img src="./images/sonal.jpg" alt="Sonal Kanodia" />
+            <p>
+              We have lots of memories together, she is the only one who know me well, even more than Rishabh Shukla, we
+              have fighted for long time but than we resolved, that's why we real friends we have faced many difficult
+              situations and that make our friendship more strong day by day.
+            </p>
+            <span>Sonal Kanodia</span>
+          </div>
+          <div class="slide">
+            <img src="./images/abhay.jpg" alt="Abhay Dwivedi" />
+            <p>
+              Don't have anything to say about him, #frustratingFriend.
+            </p>
+            <span>Abhay Dwivedi</span>
+          </div>
+        </div>
+        <div class="slider-dots"></div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="container">
+        <h1 class="section-heading"><span>My Previous </span>Work</h1>
+        <p>We provide high standar clean website for business solutions</p>
+
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="overlay">
+              <span>Category:</span>
+              <a href="https://github.com/shivanshd">Android App</a>
+              <span>Name:</span>
+              <a href="https://github.com/shivanshd">KisanAvitra</a>
+            </div>
+            <img src="./images/kisan.jpg" alt="Mobile Screen">
+          </div>
+          <div class="card">
+            <div class="overlay">
+              <span>Category:</span>
+              <a href="https://github.com/shivanshd">Web App</a>
+              <span>Name:</span>
+              <a href="https://github.com/shivanshd">Spoonify</a>
+            </div>
+            <img src="./images/spoonify.jpg" alt="Mobile Screen">
+          </div>
+          <div class="card">
+            <div class="overlay">
+              <span>Category:</span>
+              <a href="https://github.com/shivanshd">Web App</a>
+              <span>Name:</span>
+              <a href="https://github.com/shivanshd">DishaKriti</a>
+            </div>
+            <img src="./images/dishakriti.jpg" alt="Mobile Screen">
+          </div>
+          <div class="card">
+            <div class="overlay">
+              <span>Category:</span>
+              <a href="https://github.com/shivanshd">Android Appt</a>
+              <span>Name:</span>
+              <a href="https://github.com/shivanshd">Sketch Recognition</a>
+            </div>
+            <img src="./images/sketch.jpg" alt="Mobile Screen">
+          </div>
+          <div class="card">
+            <div class="overlay">
+              <span>Category:</span>
+              <a href="https://github.com/shivanshd">Machine Learning</a>
+              <span>Name:</span>
+              <a href="https://github.com/shivanshd">Classification</a>
+            </div>
+            <img src="./images/classification.png" alt="Mobile Screen">
+          </div>
+          <div class="card">
+            <div class="overlay">
+              <span>Category:</span>
+              <a href="https://github.com/shivanshd">Machine Learning</a>
+              <span>Name:</span>
+              <a href="https://github.com/shivanshd">Regression</a>
+            </div>
+            <img src="./images/regression.png" alt="Mobile Screen">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="container">
+        <h1 class="section-heading">My Favourite <span>Blog</span></h1>
+        <p>
+          Here are some of my favourite blogs, Hope you also like it!
+        </p>
+        <div class="slider-2">
+          <div class="card-wrapper slide-2">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/deeplearning.jpeg" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://medium.com/swlh/reverse-image-search-using-pretrained-deep-learning-model-83f16ef4aec8"
+                  target="_blank">
+                  <h1>Reverse Image Search</h1>
+                </a>
+                <span>Nov 19, 2019</span>
+                <p>
+                  Reverse Image Search Using Pretrained Deep Learning Model<br>
+                  This blog was created and is independently run by Jeff Erickson, an experienced computer science
+                  professor with a
+                  penchant for computational theory. While a great deal of the material that Erickson covers is
+                  specifically computer
+                  science-centric in nature
+                </p>
+                <a href="https://medium.com/swlh/reverse-image-search-using-pretrained-deep-learning-model-83f16ef4aec8"
+                  target="_blank" class="read-more">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/robot.png" alt="Robot">
+              </div>
+              <div class="card-content">
+                <a href="https://aboveintelligent.com/top-5-creepy-robots-1a4da028aff5" target="_blank">
+                  <h1>Top 5 Creepy Robots</h1>
+                </a>
+                <span>Sept 23, 2020</span>
+                <p>
+                  We were used to hearing that we’ll be out of a job in twenty years, because of robots. Then the virus
+                  came, and now many
+                  are out of a job a bit faster, and not because of anything more intelligent or capable than
+                  themselves.
+                  Still, many of
+                  the promises of the Golden Age of AI sound more creepy than golden.
+                </p>
+                <a href="https://aboveintelligent.com/top-5-creepy-robots-1a4da028aff5" target="_blank">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/nueral.jpg" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://medium.com/the-innovation/how-do-neural-networks-learn-82d5e067887" target="_blank">
+                  <h1>How Do Neural Networks Learn?</h1>
+                </a>
+                <span>May 12, 2017</span>
+                <p>
+                  This is the same that we used in our examples before. But now imagine that it is not trained at all.
+                  So,
+                  in the
+                  beginning, its synaptic weights will be initialised to random values. Clearly, then, the behaviour of
+                  the network When you apply some input pattern, you will get some random output pattern.
+                </p>
+                <a href="https://medium.com/the-innovation/how-do-neural-networks-learn-82d5e067887" target="_blank">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper slide-2">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/ideas.png" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://towardsdatascience.com/12-best-ai-ml-based-app-ideas-thatll-make-money-in-2020-96d104b6367e"
+                  target="_blank">
+                  <h1>12 Best AI & ML Based App Ideas</h1>
+                </a>
+                <span>Sept 12, 2019</span>
+                <p>
+                  According to recent research of PWC, 72% of business leaders said they believe AI is going to be
+                  fundamental in the
+                  future and they termed it a “business advantage”. No doubt, AI is one of the most crucial future
+                  technology which is
+                  being opted by many businesses — small or big — rapidly.
+                </p>
+                <a href="https://towardsdatascience.com/12-best-ai-ml-based-app-ideas-thatll-make-money-in-2020-96d104b6367e"
+                  target="_blank" class="read-more">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/spread.png" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://medium.com/the-innovation/neurons-in-spreadsheets-e917c5c77a22" target="_blank">
+                  <h1>Neurons in Spreadsheets</h1>
+                </a>
+                <span>Oct 10, 2020</span>
+                <p>
+                  In the previous post, we saw what a neural network is and how it works. Now comes the fun part. We’ll
+                  make one in a
+                  spreadsheet.
+                  It doesn’t matter which spreadsheet you use. You can visualise such neurons in Excel, or you can
+                  equally
+                  well use
+                  LibreOffice, Google Sheets or any other spreadsheet application.
+                </p>
+                <a href="https://medium.com/the-innovation/neurons-in-spreadsheets-e917c5c77a22" target="_blank">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/priemer.jpg" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://towardsdatascience.com/a-guide-for-selecting-an-appropriate-metric-for-your-a-b-test-9068cccb7fb"
+                  target="_blank">
+                  <h1>Selecting A/B test metrics — A primer</h1>
+                </a>
+                <span>May 12, 2017</span>
+                <p>
+                  This article is the 3rd one in my series of articles about A/B Testing.
+                  In the first article, I presented the intuition behind A/B testing and the importance of establishing
+                  the magnitude of
+                  the effect you hope to observe and corresponding sample size.
+                </p>
+                <a href="https://towardsdatascience.com/a-guide-for-selecting-an-appropriate-metric-for-your-a-b-test-9068cccb7fb"
+                  target="_blank">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper slide-2">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/trafic.jpg" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://towardsdatascience.com/smart-a-b-test-design-understanding-test-exposure-85ee44c897ba"
+                  target="_blank">
+                  <h1>How to split the traffic in an A/B Test</h1>
+                </a>
+                <span>Sept 9, 2019</span>
+                <p>
+                  When I started my A/B testing, there were several things that I understood at a superficial level
+                  (stuff
+                  I had read in
+                  books or online videos). However, I was fortunate to have colleagues that helped me understand these
+                  ideas intuitively,
+
+                </p>
+                <a href="https://towardsdatascience.com/smart-a-b-test-design-understanding-test-exposure-85ee44c897ba"
+                  target="_blank" class="read-more">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/forest.jpeg" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://towardsdatascience.com/decision-trees-and-random-forests-74b89a374db" target="_blank">
+                  <h1>Decision Trees and Random Forests:o</h1>
+                </a>
+                <span>Sept 8, 2019</span>
+                <p>
+                  During my time learning about decision trees and random forests, I have noticed that a lot of the
+                  hyper-parameters are
+                  widely discussed and used. Max_depth, min_samples_leaf etc., including the hyper-parameters that are
+
+                </p>
+                <a href="https://towardsdatascience.com/decision-trees-and-random-forests-74b89a374db" target="_blank">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/thorem.jpeg" alt="Article">
+              </div>
+              <div class="card-content">
+                <a href="https://towardsdatascience.com/understanding-the-central-limit-theorem-e598158cc5da"
+                  target="_blank">
+                  <h1>Understanding the Central Limit Theorem</h1>
+                </a>
+                <span>May 8, 2019</span>
+                <p>
+                  Sequence models are a special class of deep neural networks that have applications in machine
+                  translation, speech
+                  recognition, image captioning, music generation, etc. Sequence problems can be of varying types where
+                  the input X and
+                  output Y might both be .
+                </p>
+                <a href="https://towardsdatascience.com/understanding-the-central-limit-theorem-e598158cc5da"
+                  target="_blank">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-2-dots"></div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="section-heading">Contact
+          <span> Me!</span>
+        </h1>
+        <p>
+          I would love to hear from you, and have some good conversation!
+        </p>
+        <div class="card-wrapper">
+          <div class="card">
+
+            <img src="./images/cell.png" alt="phone">
+            <a href="tel:+91-8303557710" target="_blank">
+              <h1>Call Me!!!</h1>
+            </a>
+            <a href="tel:+91-8303557710" target="_blank">
+              <h6>Click Here to Call!!!</h6>
             </a>
           </div>
-          <div>
-            <a href="#header">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#pages">Pages</a>
-            <a href="#blog">Blog</a>
-          </div>
-        </div>
-        <div class="right">
-          <a href="#contact">
-            <button class="btn btn-primary">Contact</button></a>
-        </div>
-      </nav>
-      <div class="hero flex items-center justify-between">
-        <div class="left flex-1">
-          <img src="./images/shivansh.png" alt="Model" />
-        </div>
-        <div class="right flex-1 justify-center">
-          <h6>Shivansh Dubey</h6>
-          <h1>I'm a Creative <span>Developer</span></h1>
-          <p>
-            You are here that's mean you want to know about me than you have visited the right website because it's my
-            portfolio site, from here you can get to know about me, my friends, my likes but not my dislikes.
-          </p>
-          <div>
-            <a href="./images/ShivanshCV.pdf" download="ShivanshCV" target="_blank">
-              <button class="btn btn-secondary">DOWNLOAD CV</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section class="about" id="about">
-    <div class="container flex items-center">
-      <div class="flex-1">
-        <img class="about-me-image" src="./images/man-2.jpg" alt="Profile Picture" />
-      </div>
-      <div class="flex-1">
-        <h1>About <span>Me!!!</span></h1>
-        <h3>Hello! i'm Shivansh Dubey.</h3>
-        <p>
-          I have done my <em>Bachelor of Technology in Computer Science and Engineering</em> from <em>
-            <bold>Dr APJ
-              Abdul Kalam Technical University</bold>
-          </em>, I love to know about different technologies and explore them too!
-          <br>
-          Apart from technology I like to read about Hindu Scripters, Ancient Stories, History, I also have some
-          interest in Art and Craft, whenever I have some extra time I like to spend it on polish my art skills.
-          <br>
-          My hobbies include Internet Suffering, Cooking, Yeah I like cooking very much and I am an awesome cook that
-          friends always say I thinking cooking is also a kind of art which enhance your creativity in a good manner,
-          and I really
-          feel happy when someone gives me a compliment on my food.
-        </p>
-        <div class="social">
-          <a href="mailto:shivanshdb10@gmail.com" target="_blank"><img src="./images/gmail.svg" alt="Gmail" /></a>
-          <a href="https://www.linkedin.com/in/shivansh-dubey-288497152/" target="_blank"><img
-              src="./images/linkedin.svg" alt="LinkedIn" /></a>
-          <a href="https://twitter.com/shivanshdb10" target="_blank"><img src="./images/twitter.svg"
-              alt="Twitter" /></a>
-          <a href="https://github.com/shivanshd" target="_blank"><img src="./images/github.svg" alt="GitHub" /></a>
-          <a href="https://www.instagram.com/sd_shivansh/" target="_blank"><img src="./images/instagram.svg"
-              alt="Instagram" /></a>
-          <a href="https://www.facebook.com/shivanshd" target="_blank"><img src="./images/facebook.svg"
-              alt="Facebook" /></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="services" id="services">
-    <div class="container">
-      <h1 class="section-heading"><span>My </span>Services</h1>
-      <p>These are the fields in which I have some knowledge or I like to work on these.</p>
-      <div class="card-wrapper">
-        <div class="card">
-          <img src="./images/brush.png" alt="Graphic Design" />
-          <h2>Graphic Design</h2>
-          <p>
-            Craft where professionals create visual content to communicate messages. By applying visual hierarchy and
-            page layout
-            techniques. </p>
-        </div>
-        <div class="card">
-          <img src="./images/code.png" alt="Web Development" />
-          <h2>Web Development</h2>
-          <p>
-            It involve developing a Web site for the Internet. Web development can range from
-            developing a
-            simple single static page of plain text to complex Web-based Internet applications.
-          </p>
-        </div>
-        <div class="card">
-          <img src="./images/media.png" alt="Digital Marketing" />
-          <h2>Digital Marketing</h2>
-          <p>
-            It refers to advertising delivered through digital channels such as search engines, websites, social media,
-            email, and
-            mobile apps. Using these online media channels.
-          </p>
-        </div>
-        <div class="card">
-          <img src="./images/monitor.png" alt="Web Designing" />
-          <h2>Web Designing</h2>
-          <p>
-            It encompasses many different skills and disciplines in the production and maintenance of websites. The
-            different areas of
-            web design include web graphic design.
-          </p>
-        </div>
-        <div class="card">
-          <img src="./images/video.png" alt="Motion Graphics" />
-          <h2>Editing</h2>
-          <p>
-            It is the process of selecting and preparing written, photographic, visual, audible, or cinematic material
-            used by a person
-            or an entity to convey a message or information.
-          </p>
-        </div>
-        <div class="card">
-          <img src="./images/android.png" alt="Application Development" />
-          <h2>Application Development</h2>
-          <p>
-            It is the process of creating a computer program or a set of programs to perform the different tasks that a
-            business requires.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="freelancer" id="pages">
-    <h1>I am available for Freelance</h1>
-    <p>I am available for work, for full-time, part-time or remotely </p>
-    <a href="./images/ShivanshCV.pdf" download="ShivanshCV" target="_blank">
-      <button class="btn btn-primary">DOWNLOAD CV</button></a>
-  </section>
-  <section class="reviews" id="reviews">
-    <div class="container">
-      <h1 class="section-heading">My <span>Friends!!!</span></h1>
-      <p>These are my awesome friends, who make my life joyfull</p>
-      <div class="slider">
-        <div class="slide">
-          <img src="./images/rishabh.jpg" alt="Rishabh Shukla" />
-          <p>
-            He is my best-friend, brother, my family. I always annoy him, fight with him, but he is the one who is there
-            for me always even if call hime at 3 AM, he will be there for me. I am the luckiest person to have friend
-            like him.
-            Having someone all the time is just a blessing and he proofs that true...
-          </p>
-          <span>Rishabh Shukla</span>
-        </div>
-        <div class="slide">
-          <img src="./images/gunjan.jpg" alt="Gunjan Shukla" />
-          <p>
-            She is my college friend with, we are friends since last 3-4 years I am her third friends she made in
-            college but I am only one who is permanent now. I have tease her with different name like Chudail, Athmi
-            Fails etc and she always tolrate it.
-          </p>
-          <span>Gunjan Shukla</span>
-        </div>
-        <div class="slide">
-          <img src="./images/sonal.jpg" alt="Sonal Kanodia" />
-          <p>
-            We have lots of memories together, she is the only one who know me well, even more than Rishabh Shukla, we
-            have fighted for long time but than we resolved, that's why we real friends we have faced many difficult
-            situations and that make our friendship more strong day by day.
-          </p>
-          <span>Sonal Kanodia</span>
-        </div>
-        <div class="slide">
-          <img src="./images/abhay.jpg" alt="Abhay Dwivedi" />
-          <p>
-            Don't have anything to say about him, #frustratingFriend.
-          </p>
-          <span>Abhay Dwivedi</span>
-        </div>
-      </div>
-      <div class="slider-dots"></div>
-    </div>
-  </section>
-  <section class="work" id="work">
-    <div class="container">
-      <h1 class="section-heading"><span>My Previous </span>Work</h1>
-      <p>We provide high standar clean website for business solutions</p>
+          <div class="card">
 
-      <div class="card-wrapper">
-        <div class="card">
-          <div class="overlay">
-            <span>Category:</span>
-            <a href="https://github.com/shivanshd">Android App</a>
-            <span>Name:</span>
-            <a href="https://github.com/shivanshd">KisanAvitra</a>
+            <img src="./images/email.png" alt="phone">
+            <a href="mailto:shivanshdb10@gmail.com" target="_blank">
+              <h1>Mail Me!!!</h1>
+            </a>
+            <a href="mailto:shivanshdb10@gmail.com" target="_blank">
+              <h6>shivansdb10@gmail.com</h6>
+            </a>
           </div>
-          <img src="./images/kisan.jpg" alt="Mobile Screen">
+          <div class="card">
+
+            <img src="./images/whatsapp.png" alt="phone">
+            <a href="https://wa.me/+91-8303557710" target="_blank">
+              <h1>WhatsApp Me!!!</h1>
+            </a>
+            <a href="https://wa.me/+91-8303557710" target="_blank">
+              <h6>Click Here to WhatsApp!!!</h6>
+            </a>
+          </div>
         </div>
-        <div class="card">
-          <div class="overlay">
-            <span>Category:</span>
-            <a href="https://github.com/shivanshd">Web App</a>
-            <span>Name:</span>
-            <a href="https://github.com/shivanshd">Spoonify</a>
-          </div>
-          <img src="./images/spoonify.jpg" alt="Mobile Screen">
-        </div>
-        <div class="card">
-          <div class="overlay">
-            <span>Category:</span>
-            <a href="https://github.com/shivanshd">Web App</a>
-            <span>Name:</span>
-            <a href="https://github.com/shivanshd">DishaKriti</a>
-          </div>
-          <img src="./images/dishakriti.jpg" alt="Mobile Screen">
-        </div>
-        <div class="card">
-          <div class="overlay">
-            <span>Category:</span>
-            <a href="https://github.com/shivanshd">Android Appt</a>
-            <span>Name:</span>
-            <a href="https://github.com/shivanshd">Sketch Recognition</a>
-          </div>
-          <img src="./images/sketch.jpg" alt="Mobile Screen">
-        </div>
-        <div class="card">
-          <div class="overlay">
-            <span>Category:</span>
-            <a href="https://github.com/shivanshd">Machine Learning</a>
-            <span>Name:</span>
-            <a href="https://github.com/shivanshd">Classification</a>
-          </div>
-          <img src="./images/classification.png" alt="Mobile Screen">
-        </div>
-        <div class="card">
-          <div class="overlay">
-            <span>Category:</span>
-            <a href="https://github.com/shivanshd">Machine Learning</a>
-            <span>Name:</span>
-            <a href="https://github.com/shivanshd">Regression</a>
-          </div>
-          <img src="./images/regression.png" alt="Mobile Screen">
+        <div id="form-wrapper">
+          <form action="">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Email Id">
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your Subject...">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <a href="#form-wrapper">
+                <button class="btn btn-primary">Send Message</button></a>
+            </div>
+          </form>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="blog" id="blog">
-    <div class="container">
-      <h1 class="section-heading">My Favourite <span>Blog</span></h1>
-      <p>
-        Here are some of my favourite blogs, Hope you also like it!
-      </p>
-      <div class="slider-2">
-        <div class="card-wrapper slide-2">
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/deeplearning.jpeg" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://medium.com/swlh/reverse-image-search-using-pretrained-deep-learning-model-83f16ef4aec8"
-                target="_blank">
-                <h1>Reverse Image Search</h1>
-              </a>
-              <span>Nov 19, 2019</span>
-              <p>
-                Reverse Image Search Using Pretrained Deep Learning Model<br>
-                This blog was created and is independently run by Jeff Erickson, an experienced computer science
-                professor with a
-                penchant for computational theory. While a great deal of the material that Erickson covers is
-                specifically computer
-                science-centric in nature
-              </p>
-              <a href="https://medium.com/swlh/reverse-image-search-using-pretrained-deep-learning-model-83f16ef4aec8"
-                target="_blank" class="read-more">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/robot.png" alt="Robot">
-            </div>
-            <div class="card-content">
-              <a href="https://aboveintelligent.com/top-5-creepy-robots-1a4da028aff5" target="_blank">
-                <h1>Top 5 Creepy Robots</h1>
-              </a>
-              <span>Sept 23, 2020</span>
-              <p>
-                We were used to hearing that we’ll be out of a job in twenty years, because of robots. Then the virus
-                came, and now many
-                are out of a job a bit faster, and not because of anything more intelligent or capable than themselves.
-                Still, many of
-                the promises of the Golden Age of AI sound more creepy than golden.
-              </p>
-              <a href="https://aboveintelligent.com/top-5-creepy-robots-1a4da028aff5" target="_blank">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/nueral.jpg" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://medium.com/the-innovation/how-do-neural-networks-learn-82d5e067887" target="_blank">
-                <h1>How Do Neural Networks Learn?</h1>
-              </a>
-              <span>May 12, 2017</span>
-              <p>
-                This is the same that we used in our examples before. But now imagine that it is not trained at all. So,
-                in the
-                beginning, its synaptic weights will be initialised to random values. Clearly, then, the behaviour of
-                the network When you apply some input pattern, you will get some random output pattern.
-              </p>
-              <a href="https://medium.com/the-innovation/how-do-neural-networks-learn-82d5e067887" target="_blank">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card-wrapper slide-2">
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/ideas.png" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://towardsdatascience.com/12-best-ai-ml-based-app-ideas-thatll-make-money-in-2020-96d104b6367e"
-                target="_blank">
-                <h1>12 Best AI & ML Based App Ideas</h1>
-              </a>
-              <span>Sept 12, 2019</span>
-              <p>
-                According to recent research of PWC, 72% of business leaders said they believe AI is going to be
-                fundamental in the
-                future and they termed it a “business advantage”. No doubt, AI is one of the most crucial future
-                technology which is
-                being opted by many businesses — small or big — rapidly.
-              </p>
-              <a href="https://towardsdatascience.com/12-best-ai-ml-based-app-ideas-thatll-make-money-in-2020-96d104b6367e"
-                target="_blank" class="read-more">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/spread.png" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://medium.com/the-innovation/neurons-in-spreadsheets-e917c5c77a22" target="_blank">
-                <h1>Neurons in Spreadsheets</h1>
-              </a>
-              <span>Oct 10, 2020</span>
-              <p>
-                In the previous post, we saw what a neural network is and how it works. Now comes the fun part. We’ll
-                make one in a
-                spreadsheet.
-                It doesn’t matter which spreadsheet you use. You can visualise such neurons in Excel, or you can equally
-                well use
-                LibreOffice, Google Sheets or any other spreadsheet application.
-              </p>
-              <a href="https://medium.com/the-innovation/neurons-in-spreadsheets-e917c5c77a22" target="_blank">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/priemer.jpg" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://towardsdatascience.com/a-guide-for-selecting-an-appropriate-metric-for-your-a-b-test-9068cccb7fb"
-                target="_blank">
-                <h1>Selecting A/B test metrics — A primer</h1>
-              </a>
-              <span>May 12, 2017</span>
-              <p>
-                This article is the 3rd one in my series of articles about A/B Testing.
-                In the first article, I presented the intuition behind A/B testing and the importance of establishing
-                the magnitude of
-                the effect you hope to observe and corresponding sample size.
-              </p>
-              <a href="https://towardsdatascience.com/a-guide-for-selecting-an-appropriate-metric-for-your-a-b-test-9068cccb7fb"
-                target="_blank">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card-wrapper slide-2">
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/trafic.jpg" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://towardsdatascience.com/smart-a-b-test-design-understanding-test-exposure-85ee44c897ba"
-                target="_blank">
-                <h1>How to split the traffic in an A/B Test</h1>
-              </a>
-              <span>Sept 9, 2019</span>
-              <p>
-                When I started my A/B testing, there were several things that I understood at a superficial level (stuff
-                I had read in
-                books or online videos). However, I was fortunate to have colleagues that helped me understand these
-                ideas intuitively,
-
-              </p>
-              <a href="https://towardsdatascience.com/smart-a-b-test-design-understanding-test-exposure-85ee44c897ba"
-                target="_blank" class="read-more">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/forest.jpeg" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://towardsdatascience.com/decision-trees-and-random-forests-74b89a374db" target="_blank">
-                <h1>Decision Trees and Random Forests:o</h1>
-              </a>
-              <span>Sept 8, 2019</span>
-              <p>
-                During my time learning about decision trees and random forests, I have noticed that a lot of the
-                hyper-parameters are
-                widely discussed and used. Max_depth, min_samples_leaf etc., including the hyper-parameters that are
-
-              </p>
-              <a href="https://towardsdatascience.com/decision-trees-and-random-forests-74b89a374db" target="_blank">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/thorem.jpeg" alt="Article">
-            </div>
-            <div class="card-content">
-              <a href="https://towardsdatascience.com/understanding-the-central-limit-theorem-e598158cc5da"
-                target="_blank">
-                <h1>Understanding the Central Limit Theorem</h1>
-              </a>
-              <span>May 8, 2019</span>
-              <p>
-                Sequence models are a special class of deep neural networks that have applications in machine
-                translation, speech
-                recognition, image captioning, music generation, etc. Sequence problems can be of varying types where
-                the input X and
-                output Y might both be .
-              </p>
-              <a href="https://towardsdatascience.com/understanding-the-central-limit-theorem-e598158cc5da"
-                target="_blank">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
+    </section>
+    <footer>
+      <a href="#header">
+        <img class="footer-logo" src="./images/logo-3.png" alt="Logo"> </a>
+      <div class="footer-socials">
+        <a href="mailto:shivanshdb10@gmail.com" target="_blank"><img src="./images/gmail.svg" alt="Gmail" /></a>
+        <a href="https://www.linkedin.com/in/shivansh-dubey-288497152/" target="_blank"><img src="./images/linkedin.svg"
+            alt="LinkedIn" /></a>
+        <a href="https://twitter.com/shivanshdb10" target="_blank"><img src="./images/twitter.svg" alt="Twitter" /></a>
+        <a href="https://github.com/shivanshd" target="_blank"><img src="./images/github.svg" alt="GitHub" /></a>
+        <a href="https://www.instagram.com/sd_shivansh/" target="_blank"><img src="./images/instagram.svg"
+            alt="Instagram" /></a>
+        <a href="https://www.facebook.com/shivanshd" target="_blank"><img src="./images/facebook.svg"
+            alt="Facebook" /></a>
       </div>
-      <div class="slider-2-dots"></div>
-    </div>
-  </section>
-  <section class="contact" id="contact">
-    <div class="container">
-      <h1 class="section-heading">Contact
-        <span> Me!</span>
-      </h1>
-      <p>
-        I would love to hear from you, and have some good conversation!
-      </p>
-      <div class="card-wrapper">
-        <div class="card">
-
-          <img src="./images/cell.png" alt="phone">
-          <a href="tel:+91-8303557710" target="_blank">
-            <h1>Call Me!!!</h1>
-          </a>
-          <a href="tel:+91-8303557710" target="_blank">
-            <h6>Click Here to Call!!!</h6>
-          </a>
-        </div>
-        <div class="card">
-
-          <img src="./images/email.png" alt="phone">
-          <a href="mailto:shivanshdb10@gmail.com" target="_blank">
-            <h1>Mail Me!!!</h1>
-          </a>
-          <a href="mailto:shivanshdb10@gmail.com" target="_blank">
-            <h6>shivansdb10@gmail.com</h6>
-          </a>
-        </div>
-        <div class="card">
-
-          <img src="./images/whatsapp.png" alt="phone">
-          <a href="https://wa.me/+91-8303557710" target="_blank">
-            <h1>WhatsApp Me!!!</h1>
-          </a>
-          <a href="https://wa.me/+91-8303557710" target="_blank">
-            <h6>Click Here to WhatsApp!!!</h6>
-          </a>
-        </div>
+      <div class="copyright">
+        Copyright 2020 &copy; Shivansh Dubey. All Right Reserved.
       </div>
-      <div id="form-wrapper">
-        <form action="">
-          <div class="input-wrap">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Email Id">
-          </div>
-          <div class="input-wrap-2">
-            <input type="text" placeholder="Your Subject...">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
-          </div>
-          <div class="btn-wrapper">
-            <a href="#form-wrapper">
-              <button class="btn btn-primary">Send Message</button></a>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <a href="#header">
-      <img class="footer-logo" src="./images/logo-3.png" alt="Logo"> </a>
-    <div class="footer-socials">
-      <a href="mailto:shivanshdb10@gmail.com" target="_blank"><img src="./images/gmail.svg" alt="Gmail" /></a>
-      <a href="https://www.linkedin.com/in/shivansh-dubey-288497152/" target="_blank"><img src="./images/linkedin.svg"
-          alt="LinkedIn" /></a>
-      <a href="https://twitter.com/shivanshdb10" target="_blank"><img src="./images/twitter.svg" alt="Twitter" /></a>
-      <a href="https://github.com/shivanshd" target="_blank"><img src="./images/github.svg" alt="GitHub" /></a>
-      <a href="https://www.instagram.com/sd_shivansh/" target="_blank"><img src="./images/instagram.svg"
-          alt="Instagram" /></a>
-      <a href="https://www.facebook.com/shivanshd" target="_blank"><img src="./images/facebook.svg"
-          alt="Facebook" /></a>
-    </div>
-    <div class="copyright">
-      Copyright 2020 &copy; Shivansh Dubey. All Right Reserved.
-    </div>
-  </footer>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./js/app.js"></script>
+    </footer>
+  </div>
+
+
 </body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/app.js"></script>
 
 </html>
